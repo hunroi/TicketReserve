@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const availableTickets = 10;
+const availableTickets = 100;
 let reservedTickets = 0;
 
 function reserveTicket() {
