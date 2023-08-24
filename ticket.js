@@ -7,8 +7,8 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const availableTickets = 100;
-let reservedTickets = 500;
+const availableTickets = 10000;
+let reservedTickets = 50;
 
 function reserveTicket() {
   rl.question('How many tickets would you like to reserve? ', (answer) => {
