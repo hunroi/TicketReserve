@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 const availableTickets = 200;
-let reservedTickets = 500;
+let reservedTickets = 400;
 
 function reserveTicket() {
   rl.question('How many tickets would you like to reserve? ', (answer) => {
